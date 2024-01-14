@@ -1,0 +1,82 @@
+.sectionContainer{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.headingCenter{
+    text-align: center;
+}
+.headingCenter h2{
+    font-size: 36px;
+    margin-bottom: 61px;
+}
+.headingCenter p{
+    font-size: 18px;
+    max-width: 70%;
+    margin: auto;
+    color: #7D7987;
+    font-weight: 300;
+}
+.cardList{
+    max-width: calc(356px * 3 + 36px + 36px);
+    padding: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin: auto;
+}
+.card{
+    width: fit-content;
+    padding: 45px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+.card .cardDesc{
+    max-width: 266px;
+}
+.card .cardImage{
+    margin: 54px 0px;
+}
+.learnMoreBtn, .box1 .right button{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 200px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    margin-bottom: 180px;
+}
+.learnMoreBtn:hover, .box1 .right button:hover{
+    background-color: #458FF6;
+    color: white;
+}
+.box1 .right button{
+    margin-left: 0px;
+}
+.box1{
+    padding-right: 190px;
+    display: flex;
+    justify-content: right;
+}
+.box1 .right{
+    max-width: 450px;
+}
+.box1 .right h3{
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.box1 .right p{
+    max-width: 450px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 40px;
+}

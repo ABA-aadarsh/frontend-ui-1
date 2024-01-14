@@ -1,0 +1,68 @@
+.container{}
+.container >.heading{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.listContainer{
+    margin: auto;
+    width: fit-content;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 72px;
+}
+.listContainer .card{
+    background-color: white;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40); 
+    border-radius: 20px;
+    overflow: hidden;
+    width: min-content;
+}
+.cardImage{
+    margin-bottom: 20px;
+}
+.cardTitle, .cardDesc, .readMoreLink{
+    padding: 0px 33px;
+}
+.cardTitle{
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.cardDesc{
+    color: #7D7987;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.readMoreLink{
+    text-decoration: none;
+    font-size: 17px;
+    color: #4089ED;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+.btn{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 200px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    margin-bottom: 180px;
+}
+.btn:hover{
+    background-color: #458FF6;
+    color: white;
+}
