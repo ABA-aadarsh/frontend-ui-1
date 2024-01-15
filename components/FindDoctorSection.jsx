@@ -56,7 +56,7 @@ function FindDoctorSection() {
     <section
         className={style.sectionContainer}
     >
-        <div>
+        <div className={style.container1}>
             <div
                 className={style.headingCenter}
             >
@@ -86,6 +86,7 @@ function FindDoctorSection() {
         <div
             className={style.box1}
         >
+            <img src="/image-2.png" alt="" className={style.boxImage} draggable={false}/>
             <div
                 className={style.right}
             >

@@ -1,10 +1,18 @@
-.container{}
+.container{
+    background-image: url("/vector/Vector-2.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% + 50%) 100px;
+    margin-bottom: 100px;
+}
 .container >.heading{
     font-size: 36px;
     text-align: center;
     margin-bottom: 65px;
 }
 .listContainer{
+    background-image: url("/dots.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
     margin: auto;
     width: fit-content;
     padding: 40px;
@@ -60,7 +68,7 @@
     line-height: 60px;
     cursor: pointer;
     transition: 0.2s linear;
-    margin-bottom: 180px;
+    
 }
 .btn:hover{
     background-color: #458FF6;

@@ -1,5 +1,13 @@
 .container{
-    padding-left: 280px;
+    padding-left: 200px;
+    /* background-image: url("/image-3.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 100px); */
+    margin-bottom: 180px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    min-height: 435px;
 }
 .box1{
     max-width: 420px;
@@ -31,9 +39,12 @@
     line-height: 60px;
     cursor: pointer;
     transition: 0.2s linear;
-    margin-bottom: 180px;
+    
 }
 .btn:hover{
     background-color: #458FF6;
     color: white;
+}
+.boxImage{
+    height: fit-content;
 }

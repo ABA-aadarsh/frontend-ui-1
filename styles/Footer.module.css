@@ -1,3 +1,9 @@
+.footerContainer{
+    padding-top: 75px;
+    background-image: url("/dots.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 75px) 0px;
+}
 .container{
     min-height: 450px;
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);

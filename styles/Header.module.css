@@ -1,15 +1,18 @@
 .header{
     padding-top: 32px;
-    width: 85vw;
+    width: 90vw;
     height: 100vh;
     color:  #233348;
     /* border: 1px solid #233348; */
     background-image: url("/dots.svg");
     background-repeat: no-repeat;
-    background-position: 0px 166px;
+    background-position: -50px 166px;
 }
 .mainContainer{
-    height: 100%;
+    min-height: 100%;
+    /* background-image: url("/image-1.png");
+    background-position: right bottom;
+    background-repeat: no-repeat; */
 }
 .navbar{
     width: 100%;
@@ -45,6 +48,7 @@
 .heroContainer{
     padding-left: 166px;
     display: flex;
+    gap: 100px;
 }
 .box1{
     padding-top: 186px;

@@ -20,6 +20,7 @@ function AppDetail() {
             </svg> 
         </button>
       </div>
+      <img src="/image-3.png" alt="" className={style.boxImage} draggable={false}/>
     </section>
   )
 }

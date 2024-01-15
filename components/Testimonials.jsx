@@ -16,7 +16,13 @@ function Testimonials() {
     >
         <div
             className={style.sliderView}
-        ></div>
+        >
+            <img src="/dots-1.png" alt=""
+                className={style.rightTop}
+                draggable={false}
+            />
+            
+        </div>
         <div
             className={style.btnContainer}
         >
@@ -30,6 +36,10 @@ function Testimonials() {
                 {/* right */}
             </button>
         </div>
+        <img src="/dots.svg" alt=""
+            className={style.leftBottom}
+            draggable={false}
+        />
     </section>
   )
 }

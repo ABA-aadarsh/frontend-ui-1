@@ -1,6 +1,9 @@
 .sectionContainer{
     margin-top: 160px;
-    margin-bottom: 160px;
+    padding-bottom: 160px;
+    background-image: url("/vector/Vector-1.png"), url("/dots.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: -300px 150px, calc(100% + 75px) calc(100% - 150px);
 }
 .headingCenter{
     text-align: center;
@@ -17,25 +20,34 @@
     font-weight: 300;
 }
 .cardList{
-    max-width: calc(356px * 3 + 36px + 36px);
+    background-image: url("/dots.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 150px) center;
     padding: 80px 0px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     gap: 36px;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
     margin: auto;
 }
 .card{
     width: fit-content;
-    padding: 45px;
+    padding: 40px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
 }
 .card .cardDesc{
     max-width: 266px;
+    color: #7D7987; 
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 20px;
 }
 .card .cardImage{
-    margin: 54px 0px;
+    /* margin: 54px 0px; */
+    margin-bottom: 20px;
 }
 .learnMoreBtn, .box1 .right button{
     display: block;
@@ -60,9 +72,16 @@
     margin-left: 0px;
 }
 .box1{
+    /* background-image: url("/image-2.png");
+    background-repeat: no-repeat;
+    background-position: 150px 0px; */
     padding-right: 190px;
     display: flex;
+    gap: 100px;
     justify-content: right;
+}
+.boxImage{
+    height: fit-content;
 }
 .box1 .right{
     max-width: 450px;

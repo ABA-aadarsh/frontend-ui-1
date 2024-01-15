@@ -35,6 +35,7 @@ function Header() {
                         Consult Today
                     </button>
                 </div>
+                <img src="/image-1.png" alt="" className={style.image1} draggable={false}/>
             </section>
         </main>
     </header>
