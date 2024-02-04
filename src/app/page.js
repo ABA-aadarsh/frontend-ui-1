@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <Header/>
       <FindDoctorSection/>
-      <AppDetail/>
-      <Testimonials/>
-      <ArticleSection/>
-      <Footer/>
+      {/* <AppDetail/> */}
+      {/* <Testimonials/> */}
+      {/* <ArticleSection/> */}
+      {/* <Footer/> */}
     </>
   )
 }

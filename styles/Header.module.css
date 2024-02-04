@@ -1,7 +1,6 @@
 .header{
     padding-top: 32px;
-    width: 90vw;
-    height: 100vh;
+    width: 100vw;
     color:  #233348;
     /* border: 1px solid #233348; */
     background-image: url("/dots.svg");
@@ -16,9 +15,10 @@
 }
 .navbar{
     width: 100%;
+    max-width: 1382px;
     padding-left: 166px;
+    padding-right: 50px;
     display: flex;
-    align-items: center;
 }
 .logoContainer{
     display: flex;
@@ -46,6 +46,7 @@
     margin-right: 10px;
 }
 .heroContainer{
+    width: 90vw;
     padding-left: 166px;
     display: flex;
     gap: 100px;
@@ -54,6 +55,7 @@
     padding-top: 186px;
     width: 426px;
 }
+
 .box1 h1{
     font-size: 48px;
     font-weight: 700;
@@ -79,4 +81,33 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+@media only screen and (max-width: 1230px) {
+    .navbar{
+        padding-left: 50px;
+    }
+    .heroContainer{
+        width: 100vw;
+        flex-direction: column-reverse;
+        padding-left: 0px;
+    }
+    .box1{
+        padding-top: 0px;
+        margin: auto;
+        text-align: center;
+    }
+    .box1 button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image1{
+        width: 80%;
+        max-width: 600px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:890px){
+    .linksContainer{
+        display: none;
+    }
 }
