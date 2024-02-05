@@ -2,6 +2,7 @@
     padding-top: 75px;
     background-image: url("/dots.svg");
     background-repeat: no-repeat;
+    font-size: 18px;
     background-position: calc(100% - 75px) 0px;
 }
 .container{
@@ -15,7 +16,10 @@
 .center{
     width: fit-content;
     display: flex;
+    flex-wrap: wrap;
     gap: 125px;
+    margin-top: 50px;
+    margin: 50px 15px 0px 15px;
 }
 .logoContainer{
     display: flex;
@@ -29,21 +33,24 @@
     height: 40px;
     color: #458FF6;
     background-color: white;
-    font-size: 26px;
+    font-size: 1.4em;
     font-weight: 700;
     border-radius: 50%;
     display: flex;align-items: center;justify-content: center;
 }
+.box1{
+    flex-shrink: 0;
+}
 .box1 .desc, .box1 .copyright{
     max-width: 395px;
-    font-size: 18px;
+    font-size: 1em;
     line-height: 28px;
     font-weight: 300;
     margin-bottom: 32px;
 }
 .box2 h3, .box3 h3, .box4 h3{
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 1.1em;
     font-weight: 700;
 }
 .box2 ul, .box3 ul, .box4 ul{
@@ -51,4 +58,26 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+@media screen and (max-width:1100px){
+    .footerContainer{
+        font-size: 16px;
+    }
+    .center{
+        gap: 50px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:430px){
+    .footerContainer{
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    .center{
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+    .box1 .desc{
+        max-width: 330px;
+    }
 }

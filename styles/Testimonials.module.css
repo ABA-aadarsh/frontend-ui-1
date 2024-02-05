@@ -8,7 +8,7 @@
     z-index: 2;
     margin: auto;
     height: 425px;
-    width: calc(100% - 300px);
+    width: 80%;
     border-radius: 24px;
     background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
     margin-bottom: 42px;
@@ -26,4 +26,18 @@ img.leftBottom{
     position: absolute;
     top: calc(425px - 125px);
     left: 100px;
+}
+@media screen and (max-width:430px){
+    .sliderView{
+        width: 90%;
+        height: 330px;
+    }
+    .container{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:850px){
+    .container{
+        margin-bottom: 70px;
+    }
 }

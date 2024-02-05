@@ -92,7 +92,8 @@ function FindDoctorSection() {
             >
                 <h3>Leading Healthcare Providers</h3>
                 <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver</p>
-                <button>
+                <button
+                >
                     Learn More
                 </button>
             </div>

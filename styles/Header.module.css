@@ -1,6 +1,7 @@
 .header{
     padding-top: 32px;
     width: 100vw;
+    font-size: 18px;
     color:  #233348;
     /* border: 1px solid #233348; */
     background-image: url("/dots.svg");
@@ -9,9 +10,6 @@
 }
 .mainContainer{
     min-height: 100%;
-    /* background-image: url("/image-1.png");
-    background-position: right bottom;
-    background-repeat: no-repeat; */
 }
 .navbar{
     width: 100%;
@@ -32,7 +30,7 @@
     height: 41px;
     background-color: #458FF6;;
     color: white;
-    font-size: 26px;
+    font-size: 1.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,11 +51,11 @@
 }
 .box1{
     padding-top: 186px;
-    width: 426px;
+    max-width: 426px;
 }
 
 .box1 h1{
-    font-size: 48px;
+    font-size: 2.6em;
     font-weight: 700;
     line-height: 56px;
     margin-bottom: 25px;
@@ -66,7 +64,7 @@
     margin-bottom: 45px;
     color: #7D7987;
     line-height: 32px;
-    font-size: 21px;
+    font-size: 1.2em;
 }
 .box1 button{
     width: 200px;
@@ -75,7 +73,7 @@
     border: none;
     background-color: #458FF6;
     color: white;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 300;
     display: flex;
     align-items: center;
@@ -109,5 +107,22 @@
 @media only screen and (max-width:890px){
     .linksContainer{
         display: none;
+    }
+}
+@media screen and (max-width:430px){
+    .header{
+        font-size: 14px;
+    }
+    .navbar{
+        padding-left: 10px;
+    }
+    .logoContainer{
+        width: 20px;
+        height: 20px;
+    }
+    .box1 button{
+        line-height: 40px;
+        width: max-content;
+        padding: 0px 20px;
     }
 }

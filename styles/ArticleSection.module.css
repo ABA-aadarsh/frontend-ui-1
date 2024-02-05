@@ -3,9 +3,11 @@
     background-repeat: no-repeat;
     background-position: calc(100% + 50%) 100px;
     margin-bottom: 100px;
+    font-size: 18px;
 }
 .container >.heading{
-    font-size: 36px;
+    font-size: 2em;
+    padding: 0px 5px;
     text-align: center;
     margin-bottom: 65px;
 }
@@ -18,6 +20,7 @@
     padding: 40px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 35px;
     margin-bottom: 72px;
 }
@@ -35,7 +38,7 @@
     padding: 0px 33px;
 }
 .cardTitle{
-    font-size: 21px;
+    font-size: 1.5em;
     line-height: 32px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -48,7 +51,7 @@
 }
 .readMoreLink{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 0.9em;
     color: #4089ED;
     display: flex;
     align-items: center;
@@ -58,7 +61,7 @@
 .btn{
     display: block;
     margin: auto;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 700;
     border: 2px solid #458FF6;
     color: #458FF6;
@@ -73,4 +76,31 @@
 .btn:hover{
     background-color: #458FF6;
     color: white;
+}
+@media screen and (max-width:830px){
+    .listContainer {
+        gap: 18px;
+    }
+}
+@media screen and (max-width: 430px){
+    .container{
+        font-size: 12px;
+    }
+    .listContainer{
+        padding: 20px;
+        justify-content: center;
+    }
+    .cardTitle, .cardDesc, .readMoreLink{
+        padding: 0px 15px;
+    }
+    .cardImage{
+        width: 300px;
+    }
+    .btn{
+        line-height: 40px;
+        width: max-content;
+        padding: 0px 30px;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
 }

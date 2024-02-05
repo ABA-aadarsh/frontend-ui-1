@@ -1,4 +1,5 @@
 .sectionContainer{
+    font-size: 18px;
     margin-top: 160px;
     padding-bottom: 160px;
     background-image: url("/vector/Vector-1.png"), url("/dots.svg");
@@ -9,11 +10,12 @@
     text-align: center;
 }
 .headingCenter h2{
-    font-size: 36px;
+    font-size: 2em;
+    padding: 0px 5px;
     margin-bottom: 61px;
 }
 .headingCenter p{
-    font-size: 18px;
+    font-size: 1.2em;
     max-width: 70%;
     margin: auto;
     color: #7D7987;
@@ -40,7 +42,7 @@
 .card .cardDesc{
     max-width: 266px;
     color: #7D7987; 
-    font-size: 16px;
+    font-size: 0.8em;
     font-weight: 300;
     line-height: 28px;
     margin-top: 20px;
@@ -52,7 +54,7 @@
 .learnMoreBtn, .box1 .right button{
     display: block;
     margin: auto;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 700;
     border: 2px solid #458FF6;
     color: #458FF6;
@@ -78,6 +80,7 @@
     display: flex;
     gap: 100px;
     justify-content: left;
+    padding-left: 100px;
 }
 .boxImage{
     height: fit-content;
@@ -86,17 +89,18 @@
     max-width: 450px;
 }
 .box1 .right h3{
-    font-size: 36px;
+    font-size: 2em;
     line-height: 56px;
     font-weight: 700;
     margin-bottom: 60px;
 }
 .box1 .right p{
     max-width: 450px;
-    font-size: 18px;
+    font-size: 1em;
     line-height: 30px;
     color: #7D7987;
     margin-bottom: 40px;
+    padding: 0px 5px;
 }
 @media only screen and (max-width: 1230px) {
     .cardList{
@@ -126,5 +130,28 @@
 @media only screen and (max-width:742px){
     .cardList{
         grid-template-columns: auto  ;
+    }
+}
+@media screen and (max-width:430px){
+    .sectionContainer{
+        font-size: 14px;
+        margin-top:50px;
+        padding-bottom: 0px;
+    }
+    .card{
+        padding: 20px;
+    }
+    .box1{
+        padding-left: 0px;
+    }
+    .boxImage{
+        width: 80%;
+    }
+    .box1 .right button, .learnMoreBtn{
+        line-height: 40px;
+        width: max-content;
+        padding: 0px 20px;
+        font-weight: 100;
+        margin-bottom: 60px;
     }
 }
